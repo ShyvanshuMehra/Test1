@@ -8,7 +8,12 @@ public class IepfaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(IepfaApplication.class, args);
-		System.out.println("Hello");
+		 
+		System.out.println("Tomcat Started");
+		
+		System.out.println("Try hitting the API through Postman");
 	}
 
 }
+
+//http://localhost:8080/person
